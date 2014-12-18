@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MovieClassy:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MovieClassy_jar</output-path>
+    <root id="archive" name="MovieClassy.jar">
+      <element id="module-output" name="MovieClassy" />
+    </root>
+  </artifact>
+</component>

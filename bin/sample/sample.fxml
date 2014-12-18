@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="545.0" prefWidth="676.0">
+         <children>
+            <ScrollPane layoutX="33.0" layoutY="71.0" prefHeight="370.0" prefWidth="600.0">
+               <content>
+                  <TextArea fx:id="plot" prefHeight="370.0" prefWidth="600.0" />
+               </content>
+            </ScrollPane>
+            <Button layoutX="563.0" layoutY="458.0" mnemonicParsing="false" onAction="#sayHelloWorld" text="Get Genre" />
+            <Label fx:id="helloWorld" layoutX="33.0" layoutY="490.0" />
+         </children>
+      </Pane>
+   </children>
+</GridPane>

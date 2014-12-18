@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.stable.MovieClassy.stable.MovieClassy.Core</OriginalElement>
+  <nodes>
+    <node x="302.0" y="214.5">com.stable.MovieClassy.stable.MovieClassy.Core.ReadPlot</node>
+    <node x="182.5" y="0.0">com.stable.MovieClassy.stable.MovieClassy.Core.MovieClassy</node>
+    <node x="169.0" y="214.5">com.stable.MovieClassy.stable.MovieClassy.Core.ReadCSV</node>
+    <node x="-235.0" y="132.0">com.stable.MovieClassy.stable.MovieClassy.Core.MovieClassy_Main</node>
+    <node x="471.0" y="204.0">com.stable.MovieClassy.stable.MovieClassy.Core.GetPercentageandPrint</node>
+    <node x="0.0" y="214.5">com.stable.MovieClassy.stable.MovieClassy.Core.Check</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.stable.MovieClassy.stable.MovieClassy.Core.Check" target="com.stable.MovieClassy.stable.MovieClassy.Core.MovieClassy">
+      <point x="0.0" y="-24.5" />
+      <point x="74.5" y="179.0" />
+      <point x="212.125" y="179.0" />
+      <point x="-88.875" y="77.0" />
+    </edge>
+    <edge source="com.stable.MovieClassy.stable.MovieClassy.Core.ReadPlot" target="com.stable.MovieClassy.stable.MovieClassy.Core.MovieClassy">
+      <point x="0.0" y="-24.5" />
+      <point x="376.5" y="179.0" />
+      <point x="330.625" y="179.0" />
+      <point x="29.625" y="77.0" />
+    </edge>
+    <edge source="com.stable.MovieClassy.stable.MovieClassy.Core.GetPercentageandPrint" target="com.stable.MovieClassy.stable.MovieClassy.Core.MovieClassy">
+      <point x="0.0" y="-35.0" />
+      <point x="598.5" y="179.0" />
+      <point x="389.875" y="179.0" />
+      <point x="88.875" y="77.0" />
+    </edge>
+    <edge source="com.stable.MovieClassy.stable.MovieClassy.Core.ReadCSV" target="com.stable.MovieClassy.stable.MovieClassy.Core.MovieClassy">
+      <point x="0.0" y="-24.5" />
+      <point x="225.5" y="179.0" />
+      <point x="271.375" y="179.0" />
+      <point x="-29.625" y="77.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="229.0" y="129.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

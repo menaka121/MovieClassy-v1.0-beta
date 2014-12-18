@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" prefHeight="558.0" prefWidth="613.0" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="559.0" prefWidth="610.0">
+         <children>
+            <ImageView fitHeight="90.0" fitWidth="600.0" layoutX="5.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Banner.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="517.0" layoutY="439.0" mnemonicParsing="false" onAction="#getGenre" text="Get Genre" />
+            <Button layoutX="441.0" layoutY="439.0" mnemonicParsing="false" onAction="#clear" prefHeight="25.0" prefWidth="70.0" text="Clear" />
+            <TextArea fx:id="plot" layoutX="5.0" layoutY="97.0" prefHeight="317.0" prefWidth="600.0" promptText="Enter the new Movie plot here" wrapText="true" />
+            <ImageView fitHeight="60.0" fitWidth="416.0" layoutX="104.0" layoutY="495.0" pickOnBounds="true" preserveRatio="true" scaleX="1.5">
+               <image>
+                  <Image url="@Footer.png" />
+               </image>
+            </ImageView>
+            <Pane layoutX="14.0" layoutY="433.0" prefHeight="62.0" prefWidth="403.0">
+               <children>
+                  <Label layoutX="14.0" layoutY="24.0" text="Result: " textFill="#361515" />
+                  <Label fx:id="result" layoutX="78.0" layoutY="14.0" prefHeight="34.0" prefWidth="325.0" textFill="#0b799e">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+               <effect>
+                  <Glow />
+               </effect>
+            </Pane>
+            <Label layoutX="5.0" layoutY="419.0" opacity="0.3" text="Enter a Movie Plot and hit Get Genre. To clear, hit Clear">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Label>
+            <Label layoutX="300.0" layoutY="544.0" text="Developed by: Menaka Madushanka &amp; Dushan Chathuranga">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+         </children>
+         <effect>
+            <Glow />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Pane>
+   </children>
+</GridPane>
